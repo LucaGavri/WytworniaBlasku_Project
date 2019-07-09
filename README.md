@@ -1,8 +1,7 @@
-#FX Site Project
+#FX Site Project 
 This project is an example site for FX Broker.
 
-#Site in progress
+##Site in progress
 
-
-#Author 
+##Author:
 Łukasz Gawryś
