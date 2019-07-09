@@ -1,0 +1,18 @@
+@font-face {
+  font-family: '8_bit_1_6regular';
+  src: url('../8bitfont/8bit16-webfont.woff2') format('woff2'),
+  url('../8bitfont/8bit16-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.marquee{
+  background: #282626;
+  box-sizing: border-box;
+  font-weight: lighter;
+  font-size: 20px;
+  padding: 10px 0;
+  color: #00a730;
+  text-transform: uppercase;
+  font-family: '8_bit_1_6regular';
+
+}

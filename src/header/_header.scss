@@ -1,5 +1,57 @@
 .header{
-  box-sizing: border-box;
-  padding: 100px;
-  background-color: #5effd4;
+  box-sizing: border-box;;
+  background-color: white;
+}
+.main-container{
+  width: 1230px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo{
+  width: 150px;
+  height: 100px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.navigation{
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  font-size: 20px;
+  right: 0;
+  li{
+    list-style-type: none;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 2s all;
+    position: relative;
+    a{
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.63);
+      }
+    a:before {
+      content:'';
+      position: absolute;
+      left:0;
+      right:100%;
+      bottom:0;
+      background: red;
+      height:5px;
+      transition:0.5s all;
+    }
+    a:hover {
+      color:black;
+    }
+    a:hover:before {
+      left:0;
+      right:0;
+    }
+  }
 }
