@@ -1,0 +1,72 @@
+.footer{
+  height: 170px;
+  background: linear-gradient(rgb(255, 223, 227), red);
+  opacity: 0.9;
+}
+.main-container {
+  width: 1230px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-sections{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newslet{
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: white;
+  input[type=email] {
+    height: 2em;
+    width: 69%;
+    border: none;
+    border-radius: 2px;
+    padding: 0;
+  }
+  input[type=submit] {
+    height: 2em;
+    width: 30%;
+    border: none;
+    border-radius: 2px;
+    background-color: #ff0005;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 2px;
+    transition:0.5s all;
+
+    &:hover{
+      text-shadow: 1px 1px white;
+    }
+  }
+}
+.social{
+  margin-top: 30px;
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    text-shadow: none;
+    transition: 1s all;
+
+  }
+  :hover{
+    color: red;
+    text-shadow: 2px 2px white;
+
+  }
+  i{
+    margin-left: 50px;
+  }
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  color: white;
+}

@@ -38,11 +38,19 @@
   align-items: center;
   z-index: 2;
   color: white;
+  position: relative;
   .slider-text {
-    width: 80%;
+    width: 90%;
+    .slide1{
+    }
+    .slide2{
+    }
+    .slide3{
+    }
     h1{
       font-size: 3em;
       margin: 0 auto;
+      text-transform: uppercase;
     }
     p{
       font-size: 1.5em;

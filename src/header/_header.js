@@ -2,13 +2,13 @@ import React, {Component} from "react";
 import './_header.scss';
 import logo from '../images/fxlogo1.png';
 
+
+
 class Header extends Component {
     render() {
         return (
-
             <div className="header">
                 <div className="main-container">
-
                     <div className="logo">
                         <img src={logo} alt="logo"/>
                     </div>
@@ -25,5 +25,5 @@ class Header extends Component {
         )
     }
 }
-
 export default Header;
+
