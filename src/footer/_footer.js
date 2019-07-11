@@ -8,8 +8,8 @@ class Footer extends Component {
                 <div className="main-container">
                     <div className="footer-sections">
                         <div className="newslet">
-                            <h3>skontaktuj się z nami</h3>
-                            <input type="email" name="email"/><input type="submit" name="submit" value="wyślij"/>
+                            <h3>zapisz się do newsletter</h3>
+                            <input type="email" name="email" /><input type="submit" name="submit" value="wyślij"/>
                         </div>
                         <div className="social">
                             <a href="www.facebook.com"><i className="fab fa-facebook-square"></i></a>

@@ -1,6 +1,6 @@
 .footer{
   height: 170px;
-  background: linear-gradient(rgb(255, 223, 227), red);
+  background: linear-gradient(rgb(255, 68, 80), red);
   opacity: 0.9;
 }
 .main-container {
@@ -26,6 +26,8 @@
     border: none;
     border-radius: 2px;
     padding: 0;
+    font-weight: bold;
+    color: #666666;
   }
   input[type=submit] {
     height: 2em;

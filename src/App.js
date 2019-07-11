@@ -6,15 +6,20 @@ import Marquee from "./marquee/_marquee.js";
 import Slider from "./slider/_slider.js";
 import Infos from "./infos/_infos.js";
 import Footer from "./footer/_footer.js";
+import Team from "./team/_team.js";
+
 
 function App() {
     return (
         <>
-            <Header/>
-            <Marquee/>
-            <Slider/>
-            <Infos/>
-            <Footer/>
+            <div className="app">
+                <Header/>
+                <Marquee/>
+                <Slider/>
+                <Infos/>
+                <Team/>
+                <Footer/>
+            </div>
         </>
     );
 }

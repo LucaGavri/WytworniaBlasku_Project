@@ -39,13 +39,27 @@
   z-index: 2;
   color: white;
   position: relative;
+  transition: 1s all;
+
   .slider-text {
     width: 90%;
+    animation-name: trans;
+    animation-duration: 6s;
+
     .slide1{
+      text-align: center;
+      @keyframes trans {
+        0% {opacity: 0}
+        20% {opacity: 1}
+        80% {opacity:1}
+        100% {opacity: 0}
+      }
     }
     .slide2{
+      text-align: center;
     }
     .slide3{
+      text-align: center;
     }
     h1{
       font-size: 3em;
