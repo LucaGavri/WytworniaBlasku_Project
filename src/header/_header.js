@@ -3,7 +3,6 @@ import './_header.scss';
 import logo from '../images/fxlogo1.png';
 
 
-
 class Header extends Component {
     render() {
         return (
@@ -14,10 +13,39 @@ class Header extends Component {
                     </div>
                     <nav>
                         <ul className="navigation">
-                            <li><a href="#">o nas</a></li>
-                            <li><a href="#">handluj na cfd</a></li>
-                            <li><a href="#">handluj na forex</a></li>
-                            <li><a href="#">informacje</a></li>
+                            <li><a href="#" onClick={(event) => {
+                                event.preventDefault();
+                                document.querySelector('.main-slider').scrollIntoView({
+                                    block: "start",
+                                    inline: "nearest",
+                                    behavior: "smooth"
+                                });
+                            }}>o nas</a></li>
+                            <li><a href="#" onClick={(event) => {
+                                event.preventDefault();
+                                document.querySelector('.infos').scrollIntoView({
+                                    block: "start",
+                                    inline: "nearest",
+                                    behavior: "smooth"
+                                });
+                            }}>informacje</a></li>
+                            <li><a href="#" onClick={(event) => {
+                                event.preventDefault();
+                                document.querySelector('.traders').scrollIntoView({
+                                    block: "start",
+                                    inline: "nearest",
+                                    behavior: "smooth"
+                                });
+                            }}>nasi traderzy</a></li>
+                            <li><a href="#" onClick={(event) => {
+                                event.preventDefault();
+                                document.querySelector('.footer').scrollIntoView({
+                                    block: "start",
+                                    inline: "nearest",
+                                    behavior: "smooth"
+                                });
+                            }}>kontakt</a></li>
+
                         </ul>
                     </nav>
                 </div>
@@ -25,5 +53,6 @@ class Header extends Component {
         )
     }
 }
+
 export default Header;
 

@@ -1,5 +1,6 @@
 .footer{
   height: 170px;
+  width: 100%;
   background: linear-gradient(rgb(255, 68, 80), red);
   opacity: 0.9;
 }
@@ -34,16 +35,19 @@
     width: 30%;
     border: none;
     border-radius: 2px;
-    background-color: #ff0005;
-    color: white;
+    background-color: white;
+    color: red;
     font-weight: 600;
     cursor: pointer;
-    border: 1px solid white;
     border-radius: 2px;
+    border: 1px solid #ff545e;
     transition:0.5s all;
+    text-transform: uppercase;
 
     &:hover{
-      text-shadow: 1px 1px white;
+      background-color: red;
+      color: white;
+      border: 1px solid white;
     }
   }
 }

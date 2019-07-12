@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import './_infos.scss';
+import { data } from '../data/data.json';
 
 
 class Infos extends Component {
@@ -12,14 +13,10 @@ class Infos extends Component {
     }
 
     componentDidMount() {
-        fetch('https://stocknewsapi.com/api/v1/category?section=general&items=50&token=k32g5v2dbyhepjle0pwolylsj0telifldlnyvtrs')
-            .then(res => res.json())
-            .then(json => {
-                this.setState({
-                    isLoaded: true,
-                    items: json.data
-                })
-            })
+        this.setState({
+            isLoaded: true,
+            items: data
+        })
     }
 
     render() {
@@ -37,18 +34,18 @@ class Infos extends Component {
                         <div className="main-container">
                             <div className="info-section">
                                 <div className="info-img">
-                                    <img src={items[1].image_url}/>
+                                    <img src={items[4].image_url}/>
                                 </div>
                                 <div className="info-header-and-text">
                                     <div className="info-head">
                                         {console.log(items)}
-                                        {items[1].title}
+                                        {items[4].title}
                                     </div>
                                     <div className="info-text">
-                                        {items[1].text}
+                                        {items[4].text}
                                     </div>
                                     <div className='btn'>
-                                        <a href={items[1].news_url}>
+                                        <a href={items[4].news_url} target="_blank" rel="nofollow">
                                             <button>czytaj więcej</button>
                                         </a>
                                     </div>
@@ -56,17 +53,17 @@ class Infos extends Component {
                             </div>
                             <div className="info-section">
                                 <div className="info-img">
-                                    <img src={items[3].image_url}/>
+                                    <img src={items[27].image_url}/>
                                 </div>
                                 <div className="info-header-and-text">
                                     <div className="info-head">
-                                        {items[3].title}
+                                        {items[27].title}
                                     </div>
                                     <div className="info-text">
-                                        {items[3].text}
+                                        {items[27].text}
                                     </div>
                                     <div className='btn'>
-                                        <a href={items[3].news_url}>
+                                        <a href={items[27].news_url} target="_blank" rel="nofollow">
                                             <button>czytaj więcej</button>
                                         </a>
                                     </div>
@@ -80,6 +77,5 @@ class Infos extends Component {
     }
 }
 
-// }
 
 export default Infos;
