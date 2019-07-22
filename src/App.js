@@ -11,7 +11,6 @@ import Team from "./team/_team.js";
 
 function App() {
     return (
-        <>
             <div className="app">
                 <Header/>
                 <Marquee/>
@@ -20,7 +19,6 @@ function App() {
                 <Team/>
                 <Footer/>
             </div>
-        </>
     );
 }
 

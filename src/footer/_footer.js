@@ -5,7 +5,6 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <div className="main-container">
                     <div className="footer-sections">
                         <div className="newslet">
                             <h3>zapisz się do newsletter</h3>
@@ -17,9 +16,8 @@ class Footer extends Component {
                             <a href="www.instagram.com"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
-                </div>
                 <div className="copyright">
-                    <p>Copyright 2019</p>
+                    <p>Copyright 2019, Made by LucaGavri</p>
                 </div>
             </div>
         )

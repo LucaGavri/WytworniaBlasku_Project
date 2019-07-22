@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import './_infos.scss';
-import { data } from '../data/data.json';
+import {data} from '../data/data.json';
 
 
 class Infos extends Component {
@@ -31,7 +31,7 @@ class Infos extends Component {
                         <h3 className="infos-head">
                             informacje ze świata
                         </h3>
-                        <div className="main-container">
+                        <div className="info-sections">
                             <div className="info-section">
                                 <div className="info-img">
                                     <img src={items[4].image_url}/>
