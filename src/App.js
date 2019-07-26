@@ -1,25 +1,33 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import './App.scss';
 import Header from './header/_header.js'
-import Marquee from "./marquee/_marquee.js";
-import Slider from "./slider/_slider.js";
-import Infos from "./infos/_infos.js";
-import Footer from "./footer/_footer.js";
-import Team from "./team/_team.js";
+import Welcome from "./welcome/_welcome";
 
 
-function App() {
-    return (
+class App extends Component {
+    componentDidMount() {
+
+        let getInBtn = document.querySelector(".get-in");
+        getInBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(".welcome-app").style.display="none";
+            document.querySelector(".page").style.display="block";
+        })
+
+    }
+    render() {
+        return (
             <div className="app">
+                <div className="welcome-app">
+                    <Welcome/>
+                </div>
+                <div className="page">
                 <Header/>
-                <Marquee/>
-                <Slider/>
-                <Infos/>
-                <Team/>
-                <Footer/>
+                </div>
             </div>
-    );
+        )
+    }
 }
 
 export default App;
