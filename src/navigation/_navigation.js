@@ -8,21 +8,28 @@ class Nav extends Component {
             <div className="navigation">
                 <ul>
                     <li>
-                        <a href="#">
-                            <span>Co potrafię</span>
-                            <span>Co potrafię</span>
+                        <a href="#" onClick={(event) => {
+                            event.preventDefault();
+                            document.querySelector('.skills').scrollIntoView({
+                                block: "start",
+                                inline: "nearest",
+                                behavior: "smooth"
+                            });
+                        }}>
+                            <span>co potrafię</span>
+                            <span>co potrafię</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <span>Moje projekty</span>
-                            <span>Moje projekty</span>
+                            <span>o mnie</span>
+                            <span>o mnie</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <span>Kontakt</span>
-                            <span>Kontakt</span>
+                            <span>kontakt</span>
+                            <span>kontakt</span>
                         </a>
                     </li>
                 </ul>

@@ -2,9 +2,10 @@ import React, {Component} from 'react';
 import './App.css';
 import './App.scss';
 import Welcome from "./welcome/_welcome";
-import Header from './header/_header'
+import Header from "./header/_header";
 import Nav from "./navigation/_navigation";
 import Skills from "./skills/_skills";
+import About from "./about-me/_about-me";
 
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
                     <Header/>
                     <Nav/>
                     <Skills/>
+                    <About/>
                 </div>
             </div>
         )

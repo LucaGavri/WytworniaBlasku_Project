@@ -27,12 +27,13 @@
 
     .header-title {
       font-size: 30px;
-      color: #282626;
+      color: #2d2d2d;
+      font-weight: 400;
     }
 
     .header-about {
       font-size: 20px;
-      color: #282626;
+      color: #2d2d2d;
     }
   }
 }
@@ -43,25 +44,25 @@
   }
 }
 
-@media (max-width: 715px) {
+@media (max-width: 740px) {
   .header {
     height: 350px;
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 580px) {
   .header {
     height: 390px;
   }
 }
 
-@media (max-width: 485px) {
+@media (max-width: 510px) {
   .header {
-    height: 350px;
+    height: 270px;
     .header-text {
 
       .header-title {
-        font-size: 25px;
+        font-size: 20px;
       }
 
       .header-about {
@@ -70,8 +71,26 @@
     }
   }
 }
-@media (max-width: 365px) {
+@media (max-width: 440px) {
+  .header {
+    height: 300px;
+  }
+}
+@media (max-width: 385px) {
+  .header {
+    height: 330px;
+  }
+}
+@media (max-width: 350px) {
+  .header {
+    height: 360px;
+  }
+}
+@media (max-width: 315px) {
   .header {
     height: 390px;
+    &:before{
+      border-radius: 0 0 45% 45%;
+    }
   }
 }

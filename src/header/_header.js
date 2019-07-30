@@ -13,9 +13,9 @@ class Header extends Component {
                     <p className="header-about">
                         Jestem absolwentem kursu 'Front-End Developer: React' w szkole
                         Coders Lab. W codziennej pracy potrafię być dokładny, skupiony oraz
-                        dążę do realizacji zadań w 100 procentach. Kilka lat doświadczenia w
-                        sprzedaży nauczyły mnie pracy zarówno indywidualnej jak i
-                        zespołowej.
+                        dążę do realizacji zadań w stu procentach. Praca w
+                        sprzedaży bezpośredniej nauczyła mnie rozwiązywania problemów zarówno indywidualnie
+                        jak i zespołowo.
                         Obecnie poszukuję pracy, która pozwoli mi zdobyć doświadczenie
                         oraz rozwinąć umiejętności w technologiach Front-end.
                     </p>
