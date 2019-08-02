@@ -21,13 +21,27 @@ class Nav extends Component {
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#" onClick={(event) => {
+                            event.preventDefault();
+                            document.querySelector('.social').scrollIntoView({
+                                block: "start",
+                                inline: "nearest",
+                                behavior: "smooth"
+                            });
+                        }}>
                             <span>o mnie</span>
                             <span>o mnie</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#"onClick={(event) => {
+                            event.preventDefault();
+                            document.querySelector('.contact-copyright').scrollIntoView({
+                                block: "start",
+                                inline: "nearest",
+                                behavior: "smooth"
+                            });
+                        }}>
                             <span>kontakt</span>
                             <span>kontakt</span>
                         </a>

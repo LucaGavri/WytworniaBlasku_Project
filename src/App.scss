@@ -1,10 +1,47 @@
 .app {
   margin: 0 auto;
   background: #2d2d2d;
+
   .page {
     display: none;
+
+    .scrollUp {
+      display: none;
+      width: 50px;
+      height: 50px;
+      background-color: #717171;
+      border-radius: 50%;
+      text-align: center;
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      opacity: .7;
+      cursor: pointer;
+
+      i {
+        color: #fff;
+        font-size: 30px;
+        margin-top: 10px;
+
+        &:hover{
+          animation: scroll .6s linear infinite;
+
+        }
+      }
+
+      @keyframes scroll {
+        0% {
+          margin-top: 10px;
+        }
+        50% {
+          margin-top: 0;
+        }
+        100% {
+          margin-top: 10px;
+        }
+      }
+    }
   }
-  //font-family: 'Roboto Mono', monospace;
 }
 
 @media (max-width: 1040px) {
@@ -12,6 +49,7 @@
     .welcome-app {
       display: none;
     }
+
     .page {
       display: block;
     }

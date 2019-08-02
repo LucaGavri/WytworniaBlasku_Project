@@ -1,6 +1,6 @@
 .skills {
   margin: 0 0 0 0;
-  padding: 30px 0 100px 0;
+  padding: 30px 0 30px 0;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -23,7 +23,7 @@
   min-width: 380px;
   height: 380px;
   border-radius: 50%;
-  animation: img 1s linear infinite;
+  animation: img 2s linear infinite;
 }
 
 @keyframes img {
@@ -60,14 +60,19 @@
 }
 
 @media (max-width: 950px) {
-  .skills-elems {
-    justify-content: center;
+  .skills {
+    padding: 30px 0 30px 0;
+
+
+    .skills-elems {
+      justify-content: center;
+    }
   }
 }
 
 @media (max-width: 750px) {
   .skills-img {
-    background-size: 225px 303px;
+    background-size: 235px 320px;
     background-position: 55% 50%;
     background-repeat: no-repeat;
     min-width: 300px;
@@ -114,7 +119,7 @@
   .skills-elems {
 
     .skills-img {
-      background-size: 225px 303px;
+      background-size: 235px 320px;
       background-position: 55% 50%;
       background-repeat: no-repeat;
       min-width: 300px;
@@ -127,7 +132,7 @@
   .skills-elems {
 
     .skills-img {
-      background-size: 167px 226px;
+      background-size: 178px 240px;
       background-position: 55% 50%;
       background-repeat: no-repeat;
       min-width: 225px;

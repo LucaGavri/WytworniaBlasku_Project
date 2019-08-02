@@ -24,7 +24,7 @@
     border-radius: 6px;
     border: 3px solid #2d2d2d;
     opacity: 1;
-    animation: showButton 1s linear 1; // zmien na 7s zeby wspolgralo z textem
+    animation: showButton 7s linear 1;
     transition: 1s all;
     &:hover{
       background: #2d2d2d;
