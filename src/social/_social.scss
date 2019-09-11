@@ -30,6 +30,7 @@
     z-index: 1;
     border-radius: 39px;
     transform: translateY(100px);
+    cursor: pointer;
 
     .social-outside {
       transition: .6s;
@@ -137,6 +138,13 @@
     .social-part{
       margin: 0 20px 0 20px;
     }
+  }
+  .social-part:hover .social-icon.social-upper-part {
+    border-radius: 40px;
+  }
+
+  .social-part:hover .social-icon.social-downer-part {
+    border-radius: 40px;
   }
 }
 
