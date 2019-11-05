@@ -1,96 +1,61 @@
 .header {
-  margin: 0;
-  padding: 10px 0 0 0;
-  width: 100%;
-  height: 250px;
-  position: relative;
-  overflow: hidden;
-  font-family: 'Roboto Mono', monospace;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+  min-width: 99vw;
+  box-sizing: border-box;
+}
 
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -15%;
-    width: 130%;
+.header-container {
+  width: 90%;
+  height: 180px;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    width: 250px;
+    height: 180px;
+    min-width: 250px;
+    min-height: 180px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 30px;
+    }
+  }
+
+  .navigation {
     height: 100%;
-    background: #fff;
-    border-radius: 0 0 50% 50%;
-  }
+    .nav1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      font-size: 40px;
+      right: 0;
 
-  .header-text {
-    max-width: 1100px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 1;
-    text-align: center;
+      li {
+        list-style-type: none;
+        margin-left: 50px;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: 2s all;
 
-    .header-title {
-      font-size: 30px;
-      color: #2d2d2d;
-      font-weight: 400;
-    }
+        a {
+          text-decoration: none;
+          color: rgba(220, 220, 220, 0.97);
+          transition: 0.5s all;
 
-    .header-about {
-      font-size: 20px;
-      color: #2d2d2d;
-    }
-  }
-}
+        }
 
-@media (max-width: 1000px) {
-  .header {
-    height: 300px;
-  }
-}
-
-@media (max-width: 740px) {
-  .header {
-    height: 350px;
-  }
-}
-
-@media (max-width: 580px) {
-  .header {
-    height: 390px;
-  }
-}
-
-@media (max-width: 510px) {
-  .header {
-    height: 270px;
-    .header-text {
-
-      .header-title {
-        font-size: 20px;
+        a:hover {
+          color: #FAAF47;
+        }
       }
-
-      .header-about {
-        font-size: 15px;
-      }
-    }
-  }
-}
-@media (max-width: 440px) {
-  .header {
-    height: 300px;
-  }
-}
-@media (max-width: 385px) {
-  .header {
-    height: 330px;
-  }
-}
-@media (max-width: 350px) {
-  .header {
-    height: 360px;
-  }
-}
-@media (max-width: 315px) {
-  .header {
-    height: 390px;
-    &:before{
-      border-radius: 0 0 45% 45%;
     }
   }
 }

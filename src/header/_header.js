@@ -1,27 +1,25 @@
 import React, {Component} from "react";
 import './_header.scss';
+import logo from './../images/LOGO-str.jpg'
 
 
 class Header extends Component {
     render() {
         return (
             <div className="header">
-                <div className="header-text">
-                    <h1 className="header-title">
-                        Cześć! Nazywam się Łukasz
-                    </h1>
-                    <p className="header-about">
-                        Jestem absolwentem kursu 'Front-End Developer: React' w szkole
-                        Coders Lab. W codziennej pracy potrafię być dokładny, skupiony oraz
-                        dążę do realizacji zadań w stu procentach. Praca w
-                        sprzedaży bezpośredniej nauczyła mnie rozwiązywania problemów zarówno indywidualnie
-                        jak i zespołowo.
-                        Obecnie poszukuję pracy, która pozwoli mi zdobyć doświadczenie
-                        oraz rozwinąć umiejętności w technologiach Front-end.
-                    </p>
+                <div className="header-container">
+                    <div className="logo">
+                        <img src={logo} alt="logo"/>
+                    </div>
+                    <nav className="navigation">
+                        <ul className="nav1">
+                            <li><a href="#">oferta</a></li>
+                            <li><a href="#">o nas</a></li>
+                            <li><a href="#">realizacje</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-
         )
     }
 }
