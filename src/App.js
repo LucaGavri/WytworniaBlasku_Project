@@ -3,8 +3,6 @@ import './App.css';
 import './App.scss';
 import Header from "./header/_header";
 import Slider from "./slider/_slider";
-import Nav from "./navigation/_navigation";
-import Social from "./social/_social";
 import ContactCopy from "./contact&copyright/_contact";
 
 

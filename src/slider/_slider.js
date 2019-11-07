@@ -2,9 +2,8 @@ import React, {Component} from "react";
 import './_slider.scss';
 import photoOne from './../images/IMG_8654.JPG';
 import photoTwo from './../images/IMG_20181124_150312.jpg';
-import photoThree from './../images/IMG_20190116_135451.jpg';
-import photoFour from './../images/IMG_20190328_172659.jpg';
-import photoFive from './../images/IMG_20191003_171712.jpg';
+import photoThree from './../images/IMG_20190328_172659.jpg';
+import photoFour from './../images/IMG_20190116_135451.jpg';
 
 
 class Slider extends Component {
@@ -49,11 +48,6 @@ class Slider extends Component {
                     <div className="slider-images">
                         <div className="slide4">
                             <img src={photoFour} alt="photo-four"/>
-                        </div>
-                    </div>
-                    <div className="slider-images">
-                        <div className="slide5">
-                            <img src={photoFive} alt="photo-five"/>
                         </div>
                     </div>
                 </div>
