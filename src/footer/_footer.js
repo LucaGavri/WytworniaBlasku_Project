@@ -6,6 +6,14 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer">
+                <nav className="navigation2">
+                    <ul className="nav2">
+                        <li><a href="#">o nas</a></li>
+                        <li><a href="#">oferta</a></li>
+                        <li><a href="#">realizacje</a></li>
+                        <li><a href="#">kontakt</a></li>
+                    </ul>
+                </nav>
                 <div className="media">
                     <h3>media</h3>
                     <div className="icons">

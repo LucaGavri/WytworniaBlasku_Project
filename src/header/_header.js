@@ -17,7 +17,6 @@ class Header extends Component {
                             <li><a href="#">oferta</a></li>
                             <li><a href="#">realizacje</a></li>
                             <li><a href="#">kontakt</a></li>
-
                         </ul>
                     </nav>
                 </div>
