@@ -1,6 +1,6 @@
 #Portfolio Website 
 Wytwórnia Blasku Autodetailing Project. 
-Websiteite is based on REACT.js structure.
+Website is based on REACT.js structure.
 RWD.
 
 ##Link to site
