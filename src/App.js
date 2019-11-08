@@ -95,6 +95,8 @@ class App extends Component {
             realizations.style.display = "none";
             contact.style.display = "none";
             ofert.style.display = "flex";
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         });
 
         //    przesuwanie w gore z btn'a strzałki w gore
