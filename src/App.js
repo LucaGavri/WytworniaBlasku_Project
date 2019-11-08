@@ -3,7 +3,8 @@ import './App.css';
 import './App.scss';
 import Header from "./header/_header";
 import Slider from "./slider/_slider";
-import ContactCopy from "./contact&copyright/_contact";
+import Footer from "./footer/_footer";
+import Copyright from "./copyright/_copyright";
 
 
 class App extends Component {
@@ -34,7 +35,8 @@ class App extends Component {
                 <div className="page">
                     <Header/>
                     <Slider/>
-                    <ContactCopy/>
+                    <Footer/>
+                    <Copyright/>
                     <div className="scrollUp">
                             <i className="fas fa-angle-up"></i>
                     </div>

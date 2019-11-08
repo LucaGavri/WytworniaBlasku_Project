@@ -3,6 +3,9 @@
   padding: 20px 0 0 0;
   min-width: 99vw;
   box-sizing: border-box;
+  //font-family: 'Poiret One', cursive;
+  //font-family: 'Barlow', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .header-container {
@@ -49,7 +52,7 @@
         align-items: center;
         list-style-type: none;
         text-transform: uppercase;
-        font-weight: bold;
+        font-weight: 400;
         transition: 2s all;
 
 
@@ -68,7 +71,6 @@
           right: 50%;
           bottom: 0;
           background: #FAAF47;
-          height: 3px;
           border-radius: 5%;
           transition: 0.5s all;
         }
@@ -82,7 +84,7 @@
           left: 0;
           right: 0;
           box-shadow: 0 0 8px #FAAF47;
-
+          height: 3px;
         }
       }
     }
@@ -98,6 +100,7 @@
     }
   }
 }
+
 @media (max-width: 1000px) {
   .header-container {
     .navigation {
@@ -107,11 +110,13 @@
     }
   }
 }
+
 @media (max-width: 880px) {
   .header-container {
     .navigation {
       padding-left: 20px;
       padding-right: 20px;
+
       .nav1 {
         font-size: 20px;
         justify-content: space-between;
@@ -119,6 +124,7 @@
     }
   }
 }
+
 @media (max-width: 810px) {
   .header-container {
     background-color: rgba(255, 255, 255, 0.07);
@@ -135,36 +141,69 @@
         align-items: center;
         flex-direction: column;
 
-        li{
+        li {
           padding: 5px 0;
         }
       }
     }
   }
 }
+
 @media (max-width: 580px) {
   .header-container {
     .navigation {
       padding-left: 10px;
       padding-right: 10px;
+
       .nav1 {
         font-size: 25px;
-        li{
+
+        li {
           padding: 7px 0;
         }
       }
     }
   }
 }
+
 @media (max-width: 540px) {
   .header-container {
     .navigation {
       .nav1 {
         font-size: 20px;
-        li{
+
+        li {
           padding: 10px 0;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  .header-container {
+    flex-direction: column;
+    min-height: 350px;
+
+    .navigation {
+      .nav1 {
+        font-size: 20px;
+
+        li {
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 310px) {
+  .header-container {
+    .logo {
+      width: 240px;
+      height: 180px;
+      min-width: 240px;
+      min-height: 180px;
     }
   }
 }

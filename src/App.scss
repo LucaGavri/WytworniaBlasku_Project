@@ -16,7 +16,7 @@
       position: fixed;
       right: 10px;
       bottom: 10px;
-      opacity: .7;
+      opacity: .6;
       cursor: pointer;
       z-index: 2;
 
@@ -43,5 +43,14 @@
         }
       }
     }
+  }
+}
+@media (max-width: 450px) {
+  .footer{
+    flex-direction: column;
+    height: 300px;
+  }
+  .media{
+    width: 50%;
   }
 }
