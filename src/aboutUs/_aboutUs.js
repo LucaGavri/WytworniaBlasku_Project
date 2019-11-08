@@ -22,7 +22,7 @@ class AboutUs extends Component {
                         Oprócz miłości do samochodów i ich detailingu zapewniamy pełen profesjonalizm w opiece nad
                         wszystkimi waszymi pojazdami od motocykli po łodzie czy samoloty. </p>
                     <p> Posiadany sprzęt pozwala nam
-                        również na prowadzenie innych usług, do których zapraszamy w zakładce <a href="#">Usługi</a>.</p>
+                        również na prowadzenie innych usług, do których zapraszamy w zakładce <a href="#">Oferta</a>.</p>
 
                 </div>
             </div>

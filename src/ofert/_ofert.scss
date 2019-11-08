@@ -1,0 +1,109 @@
+.ofert {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  margin: 0 auto 20px auto;
+  padding-top: 10px;
+  width: 90%;
+  min-height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 30px;
+
+  .ofertMain {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 90%;
+    height: 80%;
+
+    .ofertAll {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0 10px 0;
+      margin: 0 auto;
+      width: 100%;
+      height: 8%;
+
+      .ofertTxt {
+        margin: 0;
+        width: 60%;
+        height: 100%;
+
+        h3 {
+          margin-top: 10px;
+          color: #faaf47;
+          font-weight: 600;
+          font-size: 20px;
+        }
+
+        p {
+          color: #fff;
+          font-weight: 500;
+          font-size: 18px;
+        }
+      }
+
+      .ofertImg {
+        padding-top: 10px;
+        width: 20%;
+        height: 100%;
+
+        img {
+          width: 150px;
+          height: 150px;
+          border-radius: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .ofert {
+
+    .ofertMain {
+
+      .ofertAll {
+
+        .ofertImg {
+          width: 30%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 550px) {
+  .ofert {
+
+    .ofertMain {
+
+      .ofertAll {
+
+        .ofertImg {
+          width: 35%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 490px) {
+  .ofert {
+
+    .ofertMain {
+
+      .ofertAll {
+
+        .ofertTxt{
+          width: 100%;
+        }
+
+        .ofertImg {
+          display: none;
+        }
+      }
+    }
+  }
+}

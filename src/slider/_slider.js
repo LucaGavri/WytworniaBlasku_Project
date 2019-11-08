@@ -22,7 +22,7 @@ class Slider extends Component {
                 myIndex = 1
             }
             x[myIndex - 1].style.display = "block";
-            setTimeout(carousel, 6000);
+            setTimeout(carousel, 5000);
         }
     }
 

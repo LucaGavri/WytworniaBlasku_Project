@@ -25,7 +25,7 @@ class Footer extends Component {
                             className="fab fa-instagram"></i></a>
                     </div>
                 </div>
-                <div className="contact">
+                <div className="contactFoot">
 
                     <h3>kontakt</h3>
                     <p><i className="fas fa-map-marker-alt"></i>Wiosenna 8</p>
