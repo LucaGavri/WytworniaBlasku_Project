@@ -11,6 +11,7 @@ class Ofert extends Component {
         return (
             <div className="ofert">
                 <div className="ofertMain">
+                    <h3>Oferta</h3>
                     <div className="ofertAll">
                         <div className="ofertTxt">
                             <h3>

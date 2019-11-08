@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 import './_slider.scss';
-import photoOne from './../images/IMG_8654.JPG';
-import photoTwo from './../images/IMG_20181124_150312.jpg';
-import photoThree from './../images/IMG_20190328_172659.jpg';
-import photoFour from './../images/IMG_20190116_135451.jpg';
+import photoOne from './../images/1.jpg';
+import photoTwo from './../images/2.jpg';
+import photoThree from './../images/3.jpg';
+import photoFour from './../images/4.jpg';
 
 
 class Slider extends Component {
@@ -32,22 +32,22 @@ class Slider extends Component {
                 <div className="slider">
                     <div className="slider-images">
                         <div className="slide1">
-                            <img src={photoOne} alt="photo-one"/>
+                            <img src={photoOne} alt="autodetailing"/>
                         </div>
                     </div>
                     <div className="slider-images">
                         <div className="slide2">
-                            <img src={photoTwo} alt="photo-two"/>
+                            <img src={photoTwo} alt="wnetrze"/>
                         </div>
                     </div>
                     <div className="slider-images">
                         <div className="slide3">
-                            <img src={photoThree} alt="photo-three"/>
+                            <img src={photoThree} alt="lakier"/>
                         </div>
                     </div>
                     <div className="slider-images">
                         <div className="slide4">
-                            <img src={photoFour} alt="photo-four"/>
+                            <img src={photoFour} alt="wnetrze2"/>
                         </div>
                     </div>
                 </div>

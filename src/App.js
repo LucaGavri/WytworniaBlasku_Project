@@ -25,6 +25,78 @@ class App extends Component {
             }
         }
 
+        //akcja przycisków nawigacji i footera
+        const logoClick = document.querySelector(".logo");
+        const slider = document.querySelector(".main-slider");
+        const aboutUsClick = document.querySelector(".aboutUsClick");
+        const ofertClick = document.querySelector(".ofertClick");
+        const realizationsClick = document.querySelector(".realizationsClick");
+        const contactClick = document.querySelector(".contactClick");
+        const about = document.querySelector(".aboutUs");
+        const ofert = document.querySelector(".ofert");
+        const realizations = document.querySelector(".realizations");
+        const contact = document.querySelector(".contact");
+        const aboutToOfert = document.querySelector(".aboutToOfert");
+
+        //logo - strona glowna
+        logoClick.addEventListener("click", function (e) {
+            (e).preventDefault();
+            about.style.display = "none";
+            ofert.style.display = "none";
+            realizations.style.display = "none";
+            contact.style.display = "none";
+            slider.style.display = "flex";
+        });
+
+        //o nas
+        aboutUsClick.addEventListener("click", function (e) {
+            (e).preventDefault();
+            slider.style.display = "none";
+            ofert.style.display = "none";
+            realizations.style.display = "none";
+            contact.style.display = "none";
+            about.style.display = "flex";
+        });
+        //oferta
+        ofertClick.addEventListener("click", function (e) {
+            (e).preventDefault();
+            about.style.display = "none";
+            slider.style.display = "none";
+            realizations.style.display = "none";
+            contact.style.display = "none";
+            ofert.style.display = "flex";
+        });
+
+        //realizacje
+        realizationsClick.addEventListener("click", function (e) {
+            (e).preventDefault();
+            about.style.display = "none";
+            slider.style.display = "none";
+            ofert.style.display = "none";
+            contact.style.display = "none";
+            realizations.style.display = "flex";
+        });
+
+        //kontakt
+        contactClick.addEventListener("click", function (e) {
+            (e).preventDefault();
+            slider.style.display = "none";
+            ofert.style.display = "none";
+            realizations.style.display = "none";
+            about.style.display = "none";
+            contact.style.display = "flex";
+        });
+
+        //z o nas do oferty (na dole txtu)
+        aboutToOfert.addEventListener("click", function (e) {
+            (e).preventDefault();
+            about.style.display = "none";
+            slider.style.display = "none";
+            realizations.style.display = "none";
+            contact.style.display = "none";
+            ofert.style.display = "flex";
+        });
+
         //    przesuwanie w gore z btn'a strzałki w gore
         document.querySelector(".scrollUp").addEventListener("click", function (e) {
             (e).preventDefault();
