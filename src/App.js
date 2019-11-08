@@ -5,6 +5,7 @@ import Header from "./header/_header";
 import Slider from "./slider/_slider";
 import Footer from "./footer/_footer";
 import Copyright from "./copyright/_copyright";
+import AboutUs from "./aboutUs/_aboutUs";
 
 
 class App extends Component {
@@ -35,6 +36,7 @@ class App extends Component {
                 <div className="page">
                     <Header/>
                     <Slider/>
+                    <AboutUs/>
                     <Footer/>
                     <Copyright/>
                     <div className="scrollUp">

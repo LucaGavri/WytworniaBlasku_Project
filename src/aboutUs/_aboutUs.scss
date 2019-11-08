@@ -1,0 +1,39 @@
+.aboutUs {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  margin: 0 auto 20px auto;
+  padding-top: 10px;
+  width: 90%;
+  min-height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 30px;
+
+  .about{
+    margin: 0 auto;
+    width: 90%;
+    height: 80%;
+    h3{
+      margin-top: 10px;
+      color: #faaf47;
+      font-weight: 600;
+      font-size: 30px;
+    }
+    p{
+      color: #fff;
+      font-weight: 500;
+      font-size: 20px;
+      a{
+        text-decoration: none;
+        color: #faaf47;
+        transition: .5s all;
+
+        &:hover {
+          text-shadow: 0 0 3px #faaf47;
+        }
+      }
+    }
+  }
+}
