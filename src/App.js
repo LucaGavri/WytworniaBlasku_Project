@@ -94,7 +94,7 @@ class App extends Component {
             slider.style.display = "none";
             realizations.style.display = "none";
             contact.style.display = "none";
-            ofert.style.display = "flex";
+            ofert.style.display = "inline-block";
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         });

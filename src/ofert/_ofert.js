@@ -9,6 +9,7 @@ import pranie from './../images/pranie.jpg'
 class Ofert extends Component {
     render() {
         return (
+            <>
             <div className="ofert">
                 <div className="ofertMain">
                     <h3>Oferta</h3>
@@ -23,7 +24,7 @@ class Ofert extends Component {
                                 wybór.</p>
                         </div>
                         <div className="ofertImg">
-                            <img src={lamin} alt="laminowanie"/>
+                            <p> od 30,00 zł</p>
                         </div>
                     </div>
                     <div className="ofertAll">
@@ -56,7 +57,10 @@ class Ofert extends Component {
                     </div>
                 </div>
             </div>
-
+            <div className="ofert2">
+            div
+            </div>
+</>
         )
     }
 }
