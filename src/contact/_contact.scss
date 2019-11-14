@@ -73,11 +73,6 @@
 
       .contactTxt {
 
-        h3 {
-          font-weight: 500;
-          font-size: 25px;
-        }
-
         .contactUs {
 
           p {
@@ -92,32 +87,12 @@
     }
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 470px) {
   .contact {
-
-    .contactMain {
-
-      .contactTxt {
-
-        h3 {
-          font-weight: 500;
-          font-size: 25px;
-        }
-
-        .contactUs {
-
-          p {
-            font-size: 16px;
-
-            &:nth-of-type(2) {
-              padding-left: 20px;
-            }
-          }
-        }
-      }
-    }
+    width: 90%;
   }
 }
+
 @media (max-width: 430px) {
   .contact {
 
