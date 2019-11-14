@@ -41,60 +41,125 @@ class App extends Component {
         //logo - strona glowna
         logoClick.addEventListener("click", function (e) {
             (e).preventDefault();
+            //wyswietlanie komponentu i zwijanie innych
             about.style.display = "none";
             ofert.style.display = "none";
             realizations.style.display = "none";
             contact.style.display = "none";
             slider.style.display = "flex";
+
+            //deaktywacja navi
+            aboutUsClick.classList.remove("active");
+            ofertClick.classList.remove("active");
+            realizationsClick.classList.remove("active");
+            contactClick.classList.remove("active");
+
+            //przewijanie do top
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         });
 
         //o nas
         aboutUsClick.addEventListener("click", function (e) {
             (e).preventDefault();
+            //wyswietlanie komponentu i zwijanie innych
             slider.style.display = "none";
             ofert.style.display = "none";
             realizations.style.display = "none";
             contact.style.display = "none";
             about.style.display = "flex";
+
+            //aktywacja przycisku w navi i deaktywacja innych
+            aboutUsClick.classList.add("active");
+            ofertClick.classList.remove("active");
+            realizationsClick.classList.remove("active");
+            contactClick.classList.remove("active");
+
+            //przewijanie do top
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         });
+
         //oferta
         ofertClick.addEventListener("click", function (e) {
             (e).preventDefault();
+            //wyswietlanie komponentu i zwijanie innych
             about.style.display = "none";
             slider.style.display = "none";
             realizations.style.display = "none";
             contact.style.display = "none";
             ofert.style.display = "flex";
+
+            //aktywacja przycisku w navi i deaktywacja innych
+            ofertClick.classList.add("active");
+            aboutUsClick.classList.remove("active");
+            realizationsClick.classList.remove("active");
+            contactClick.classList.remove("active");
+
+            //przewijanie do top
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         });
 
         //realizacje
         realizationsClick.addEventListener("click", function (e) {
             (e).preventDefault();
+            //wyswietlanie komponentu i zwijanie innych
             about.style.display = "none";
             slider.style.display = "none";
             ofert.style.display = "none";
             contact.style.display = "none";
             realizations.style.display = "flex";
+
+            //aktywacja przycisku w navi i deaktywacja innych
+            realizationsClick.classList.add("active");
+            ofertClick.classList.remove("active");
+            aboutUsClick.classList.remove("active");
+            contactClick.classList.remove("active");
+
+            //przewijanie do top
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         });
 
         //kontakt
         contactClick.addEventListener("click", function (e) {
             (e).preventDefault();
+            //wyswietlanie komponentu i zwijanie innych
             slider.style.display = "none";
             ofert.style.display = "none";
             realizations.style.display = "none";
             about.style.display = "none";
             contact.style.display = "flex";
+
+            //aktywacja przycisku w navi i deaktywacja innych
+            contactClick.classList.add("active");
+            ofertClick.classList.remove("active");
+            realizationsClick.classList.remove("active");
+            aboutUsClick.classList.remove("active");
+
+            //przewijanie do top
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         });
 
         //z o nas do oferty (na dole txtu)
         aboutToOfert.addEventListener("click", function (e) {
             (e).preventDefault();
+            //wyswietlanie komponentu i zwijanie innych
             about.style.display = "none";
             slider.style.display = "none";
             realizations.style.display = "none";
             contact.style.display = "none";
             ofert.style.display = "flex";
+
+            //aktywacja przycisku w navi i deaktywacja innych
+            ofertClick.classList.add("active");
+            aboutUsClick.classList.remove("active");
+            realizationsClick.classList.remove("active");
+            contactClick.classList.remove("active");
+
+            //przewijanie do top
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         });

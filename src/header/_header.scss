@@ -1,25 +1,24 @@
 .header {
   margin: 0 auto 20px auto;
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
   min-width: 99vw;
   box-sizing: border-box;
-  //font-family: 'Poiret One', cursive;
-  //font-family: 'Barlow', sans-serif;
   font-family: 'Rajdhani', sans-serif;
 }
 
 .header-container {
+  max-width: 1600px;
   width: 80%;
-  height: 200px;
+  height: 180px;
   margin: 0 auto;
   display: flex;
   align-items: center;
 
   .logo {
     width: 240px;
-    height: 170px;
+    height: 180px;
     min-width: 240px;
-    min-height: 170px;
+    min-height: 180px;
     cursor: pointer;
 
     img {
@@ -88,10 +87,28 @@
           box-shadow: 0 0 8px #FAAF47;
           height: 3px;
         }
+
+        a.active {
+          color: #FAAF47;
+          text-shadow: 0 0 10px #FAAF47;
+        }
+
+        a.active:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: #FAAF47;
+          border-radius: 5%;
+          box-shadow: 0 0 8px #FAAF47;
+          height: 3px;
+        }
       }
     }
   }
 }
+
 
 @media (max-width: 1200px) {
   .header-container {
@@ -138,7 +155,7 @@
       background: none;
 
       .nav1 {
-        font-size: 30px;
+        font-size: 25px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -158,7 +175,6 @@
       padding-right: 10px;
 
       .nav1 {
-        font-size: 25px;
 
         li {
           padding: 7px 0;
@@ -197,17 +213,6 @@
           padding: 5px 0;
         }
       }
-    }
-  }
-}
-
-@media (max-width: 310px) {
-  .header-container {
-    .logo {
-      width: 240px;
-      height: 180px;
-      min-width: 240px;
-      min-height: 180px;
     }
   }
 }
