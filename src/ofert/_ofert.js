@@ -5,59 +5,190 @@ import './_ofert.scss';
 class Ofert extends Component {
     render() {
         return (
-                <div className="ofert">
-                    <div className="ofert1">
-                        <div className="ofertMain">
-                            <h3>Oferta</h3>
-                            <div className="ofertAll">
-                                <div className="ofertTxt">
-                                    <h3>
-                                        Laminowanie lakieru
-                                    </h3>
-                                    <p> Pragniesz zabezpieczyć lakier swojego samochodu najlepszym możliwym sposobem
-                                        jaki
-                                        istnieje?
-                                        Zapraszamy! Folie ochronne oraz powłoki ceramiczne to możliwie najlepszy jak do
-                                        tej pory
-                                        wybór.</p>
-                                </div>
-                                <div className="ofertPrice">
-                                    <p>od 30,00zł</p>
-                                </div>
+            <div className="ofert">
+                <div className="ofert1">
+                    <div className="ofertMain">
+                        <h3>Oferta</h3>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>Mycie detailingowe</h3>
+                                <p> Mycie oraz oczyszczanie auta z osadów metalicznych , smoły
+                                    dodatkowo mycie wnęk drzwi oraz szyb z zewnętrznej strony zakończone
+                                    położeniem wosku na auto. <br/>(W ofercie posiadamy również mycie zwykłe aut od
+                                    30zl)</p>
                             </div>
-                            <div className="ofertAll">
-                                <div className="ofertTxt">
-                                    <h3>
-                                        Przyciemnianie szyb
-
-                                    </h3>
-                                    <p> Korzyści z instalacji folii
-                                        -Utrzymują chłód wewnątrz samochodu nawet w najgorętsze dni (blokują do 70%
-                                        energii
-                                        słonecznej)
-                                        - Zwiększają bezpieczeństwo
-                                        - Redukują refleksy</p>
-                                </div>
-                                <div className="ofertPrice">
-                                    <p>od 30,00zł</p>
-                                </div>
+                            <div className="ofertPrice">
+                                <p>od 80,00zł</p>
                             </div>
-                            <div className="ofertAll">
-                                <div className="ofertTxt">
-                                    <h3>
-                                        Pranie tapicerki / Czyszczenie skór
-                                    </h3>
-                                    <p> Usługa czyszczenia tapicerki samochodowej, w skład której wchodzi pranie foteli,
-                                        podłogi
-                                        , podsufitki oraz innych elementów materiałowych</p>
-                                </div>
-                                <div className="ofertPrice">
-                                    <p>od 30,00zł</p>
-                                </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>
+                                    Mycie komory silnika
+                                </h3>
+                                <p></p>
+                            </div>
+                            <div className="ofertPrice">
+                                <p>od 40,00zł</p>
+                            </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>
+                                    Czyszczenie wnętrza
+                                </h3>
+                                <p>Zakres prac oraz cena jest zawsze ustalana na miejscu po oględzinach auta.
+                                    Zaczynając od odkurzania aż pod kompletne wnętrze. </p>
+                            </div>
+                            <div className="ofertPrice">
+                                <p>od 30,00zł</p>
+                            </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>
+                                    Pranie tapicerki
+                                </h3>
+                                <p>Cena obejmuje fotele oraz kanapę w aucie.</p>
+                            </div>
+                            <div className="ofertPrice">
+                                <p>od 100,00zł</p>
+                            </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>
+                                    Czyszczenie oraz konserwacja skórzanej tapicerki
+                                </h3>
+                                <p></p>
+                            </div>
+                            <div className="ofertPrice">
+                                <p>od 200,00zł</p>
+                            </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>
+                                    Zabezpieczenie tapicerki skórzanej oraz materiałowej powłokami hydrofobowymi
+                                </h3>
+                                <p></p>
+                            </div>
+                            <div className="ofertPrice">
+                                <p>od 200,00zł</p>
+                            </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>
+                                    Czyszczenie oraz konserwacja dachu cabrio
+                                </h3>
+                                <p></p>
+                            </div>
+                            <div className="ofertPrice">
+                                <p>od 200,00zł</p>
+                            </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>
+                                    Zabezpieczenie felg
+                                </h3>
+                                <p>Usługa zawiera etap oczyszczenia i przygotowania felg do nałożenia powłoki
+                                    ceramicznej bądź wosku.</p>
+                            </div>
+                            <div className="ofertPrice">
+                                <p>od 100,00zł</p>
+                            </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>
+                                    Renowacja lamp
+                                </h3>
+                                <p>Usługa renowacji kloszy lamp przednich oraz tylnych wraz z zabezpieczeniem woskiem,
+                                    powłoką ceramiczną lub folią ochronną.</p>
+                            </div>
+                            <div className="ofertPrice">
+                                <p>od 100,00zł</p>
+                            </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>
+                                    Ochrona szyb
+                                </h3>
+                                <p>Ochrona szyb powłokami ceramicznymi, hydrofobizacja szyb, tzw. niewidzialna
+                                    wycieraczka.</p>
+                            </div>
+                            <div className="ofertPrice">
+                                <p>od 100,00zł</p>
+                            </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>
+                                    Renowacja lakieru
+                                </h3>
+                                <p>Wykonujemy korekty jednoetapowe w celu odświeżenia lakieru oraz wieloetapowe w celu
+                                    wydobycia pełni blasku lakieru.</p>
+                            </div>
+                            <div className="ofertPrice">
+                                <p>od 400,00zł</p>
+                            </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>
+                                    Ochrona lakieru powłokami ceramicznymi
+                                </h3>
+                                <p>Powłoki ochronne tworzą dodatkową warstwę ochronną na lakierze uodparniając go na
+                                    działanie szkodliwych warunków atmosferycznych. Dodatkowo uwydatniają blask lakieru
+                                    oraz ułatwiają utrzymanie auta w czystości.</p>
+                            </div>
+                            <div className="ofertPrice">
+                                <p>od 300,00zł</p>
+                            </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>
+                                    Ozonowanie wnętrza auta
+                                </h3>
+                                <p>Ozonowanie, czyli usunięcie nieprzyjemnych zapachów oraz zabicie bakterii i grzybów
+                                    rozwijających się w kanałach nawiewu. <br/>
+                                    Usługa wykonywana również w pomieszczeniach.</p>
+                            </div>
+                            <div className="ofertPrice">
+                                <p>od 50,00zł</p>
+                            </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>
+                                    Przyciemnianie szyb
+                                </h3>
+                                <p>Korzyści z instalacji folii:<br/>
+                                    - Utrzymują chłód wewnątrz samochodu nawet w najgorętsze dni (blokują do 70% energii
+                                    słonecznej)<br/>
+                                    - Zwiększają bezpieczeństwo<br/>
+                                    - Redukują refleksy</p>
+                            </div>
+                            <div className="ofertPrice">
+                                <p>od 250,00zł</p>
+                            </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>
+                                    Chcesz wiedzieć ile będzie kosztować usługa w twoim aucie?
+                                </h3>
+                                <p>Zadzwoń do nas a przybliżymy Ci orientacyjne koszty.<br/>Zapraszamy również do
+                                    konsultacji na miejscu - <a className="ofertToContact" href="#">Kontakt</a>.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
         )
     }

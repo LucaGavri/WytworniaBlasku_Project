@@ -37,6 +37,7 @@ class App extends Component {
         const realizations = document.querySelector(".realizations");
         const contact = document.querySelector(".contact");
         const aboutToOfert = document.querySelector(".aboutToOfert");
+        const ofertToContact = document.querySelector(".ofertToContact");
 
         //logo - strona glowna
         logoClick.addEventListener("click", function (e) {
@@ -158,6 +159,27 @@ class App extends Component {
             aboutUsClick.classList.remove("active");
             realizationsClick.classList.remove("active");
             contactClick.classList.remove("active");
+
+            //przewijanie do top
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        });
+
+        //z ofert do contact (na dole txtu)
+        ofertToContact.addEventListener("click", function (e) {
+            (e).preventDefault();
+            //wyswietlanie komponentu i zwijanie innych
+            about.style.display = "none";
+            slider.style.display = "none";
+            realizations.style.display = "none";
+            ofert.style.display = "none";
+            contact.style.display = "flex";
+
+            //aktywacja przycisku w navi i deaktywacja innych
+            contactClick.classList.add("active");
+            aboutUsClick.classList.remove("active");
+            realizationsClick.classList.remove("active");
+            ofertClick.classList.remove("active");
 
             //przewijanie do top
             document.body.scrollTop = 0;

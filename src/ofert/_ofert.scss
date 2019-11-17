@@ -40,7 +40,7 @@
         padding: 10px 0 10px 0;
         margin: 0 auto;
         width: 100%;
-        height: 8%;
+        height: 6.3%;
 
         .ofertTxt {
           margin: 0;
@@ -58,6 +58,16 @@
             color: #fff;
             font-weight: 500;
             font-size: 20px;
+          }
+
+          a {
+            text-decoration: none;
+            color: #faaf47;
+            transition: .5s all;
+
+            &:hover {
+              text-shadow: 0 0 3px #faaf47;
+            }
           }
         }
 
