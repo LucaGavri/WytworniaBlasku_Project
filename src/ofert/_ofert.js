@@ -12,10 +12,10 @@ class Ofert extends Component {
                         <div className="ofertAll">
                             <div className="ofertTxt">
                                 <h3>Mycie detailingowe</h3>
-                                <p> Mycie oraz oczyszczanie auta z osadów metalicznych , smoły
+                                <p> Mycie oraz oczyszczanie auta z osadów metalicznych, smoły,
                                     dodatkowo mycie wnęk drzwi oraz szyb z zewnętrznej strony zakończone
-                                    położeniem wosku na auto. <br/>(W ofercie posiadamy również mycie zwykłe aut od
-                                    30zl)</p>
+                                    położeniem wosku na auto. <br/>W ofercie posiadamy również mycie zwykłe aut od
+                                    30,00zł.</p>
                             </div>
                             <div className="ofertPrice">
                                 <p>od 80,00zł</p>
@@ -167,18 +167,22 @@ class Ofert extends Component {
                                 <h3>
                                     Przyciemnianie szyb
                                 </h3>
-                                <p>Korzyści z instalacji folii:<br/>
-                                    - Utrzymują chłód wewnątrz samochodu nawet w najgorętsze dni (blokują do 70% energii
-                                    słonecznej)<br/>
-                                    - Zwiększają bezpieczeństwo<br/>
-                                    - Redukują refleksy</p>
+                                <p>Korzyści z instalacji folii:
+                                    <ul>
+                                        <li>Utrzymują chłód wewnątrz samochodu nawet w najgorętsze dni (blokują do 70%
+                                        energii
+                                            słonecznej)</li>
+                                        <li>Zwiększają bezpieczeństwo</li>
+                                        <li>Redukują refleksy</li>
+                                    </ul>
+                                </p>
                             </div>
                             <div className="ofertPrice">
                                 <p>od 250,00zł</p>
                             </div>
                         </div>
                         <div className="ofertAll">
-                            <div className="ofertTxt">
+                            <div className="ofertTxtToContact">
                                 <h3>
                                     Chcesz wiedzieć ile będzie kosztować usługa w twoim aucie?
                                 </h3>
