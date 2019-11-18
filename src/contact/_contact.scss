@@ -5,7 +5,7 @@
   padding-top: 10px;
   width: 80%;
   max-width: 1600px;
-  min-height: 250px;
+  min-height: 520px;
   display: none;
   flex-direction: column;
   justify-content: left;
@@ -21,25 +21,27 @@
     justify-content: center;
     align-items: center;
 
-    .main-map{
-      min-height: 500px;
-      width: 100%;
-    }
-
     .contactTxt {
       margin: 0 auto;
       width: 100%;
       height: 100%;
 
-      h3 {
+      h3{
         margin-top: 10px;
         color: #faaf47;
         font-weight: 600;
         font-size: 30px;
       }
 
+      .contactMap{
+        min-height: 400px;
+        width: 100%;
+        position: relative;
+      }
+
+
       .contactUs {
-        padding: 0;
+        padding: 50px 0 0 0;
         height: 100%;
         color: #fff;
         display: flex;
@@ -74,56 +76,15 @@
     }
   }
 }
-@media (max-width: 580px) {
-  .contact {
 
-    .contactMain {
-
-      .contactTxt {
-
-        .contactUs {
-
-          p {
-            font-size: 20px;
-
-            &:nth-of-type(2) {
-              padding-left: 25px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
 @media (max-width: 470px) {
   .contact {
     width: 90%;
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 373px) {
   .contact {
-
-    .contactMain {
-
-      .contactTxt {
-
-        h3 {
-          font-weight: 500;
-          font-size: 25px;
-        }
-
-        .contactUs {
-
-          p {
-            font-size: 14px;
-
-            &:nth-of-type(2) {
-              padding-left: 18px;
-            }
-          }
-        }
-      }
-    }
+    min-height: 550px;
   }
 }
