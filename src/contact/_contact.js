@@ -2,11 +2,17 @@ import React, {Component} from "react";
 import './_contact.scss';
 
 
+
+
 class Contact extends Component {
+
     render() {
         return (
             <div className="contact">
                 <div className="contactMain">
+                    <div className="main-map" id="mainMap">
+
+                    </div>
                     <div className="contactTxt">
                         <h3>Zapraszamy do kontaktu</h3>
                         <div className="contactUs">
