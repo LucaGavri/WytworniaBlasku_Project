@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logoIcon from './../images/iconPin.png';
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
 
 const mapStyles = {
@@ -35,13 +36,15 @@ export class MapContainer extends Component {
                 zoom={17}
                 style={mapStyles}
                 initialCenter={{
-                    lat: 52.054934,
+                    lat: 52.054890,
                     lng: 21.384434
                 }}
             >
                 <Marker
                     onClick={this.onMarkerClick}
                     name={'Wytwórnia Blasku Detailing & Wrap'}
+                    icon={logoIcon}
+
                 />
                 <InfoWindow
                     marker={this.state.activeMarker}
@@ -59,5 +62,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-    apiKey: 'AIzaSyCKqwYCgwcLHr3AhmgtHZCljny340a-F0g'
+    apiKey: 'AIzaSyCKqwYCgwcLHr3AhmgtHZCljny340a-'
 })(MapContainer);
