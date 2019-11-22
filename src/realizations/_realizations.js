@@ -9,9 +9,7 @@ class Realizations extends Component {
             <div className="realizations">
                 <div className="realizationsMain">
                     <h3>Nasze Realizacje</h3>
-                    <div className="realizationsGallery">
-                        <RealizationsGallery/>
-                    </div>
+                    <RealizationsGallery/>
                 </div>
             </div>
 

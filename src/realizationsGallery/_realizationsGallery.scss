@@ -1,9 +1,485 @@
-.gallery{
+.realizationsGallery {
   width: 100%;
   height: 100%;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 
+  .smallGallery {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    img {
+      width: 22%;
+      margin-bottom: 25px;
+      border-radius: 7%;
+      cursor: pointer;
+      transition: 0.4s all;
+
+    }
+    img:hover{
+      opacity: 0.5;
+    }
+  }
+
+  .bigGallery1 {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+
+    .prev{
+      font-size: 25px;
+      color: #faaf47;
+      margin-right: 25px;
+      cursor: pointer;
+    }
+
+    .cross{
+      font-size: 25px;
+      color: #faaf47;
+      height: 100%;
+      margin: 70px 0 0 0;
+      cursor: pointer;
+    }
+
+    .next{
+      font-size: 25px;
+      color: #faaf47;
+      cursor: pointer;
+    }
+
+    img{
+      height: 90%;
+      border-radius: 3%;
+    }
+  }
+
+  .bigGallery2 {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+
+    .prev{
+      font-size: 25px;
+      color: #faaf47;
+      margin-right: 25px;
+      cursor: pointer;
+    }
+
+    .cross{
+      font-size: 25px;
+      color: #faaf47;
+      height: 100%;
+      margin: 70px 0 0 0;
+      cursor: pointer;
+    }
+
+    .next{
+      font-size: 25px;
+      color: #faaf47;
+      cursor: pointer;
+    }
+
+    img{
+      height: 90%;
+      border-radius: 3%;
+    }
+  }
+
+  .bigGallery3 {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+
+    .prev{
+      font-size: 25px;
+      color: #faaf47;
+      margin-right: 25px;
+      cursor: pointer;
+    }
+
+    .cross{
+      font-size: 25px;
+      color: #faaf47;
+      height: 100%;
+      margin: 70px 0 0 0;
+      cursor: pointer;
+    }
+
+    .next{
+      font-size: 25px;
+      color: #faaf47;
+      cursor: pointer;
+    }
+
+    img{
+      height: 90%;
+      border-radius: 3%;
+    }
+  }
+
+  .bigGallery4 {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+
+    .prev{
+      font-size: 25px;
+      color: #faaf47;
+      margin-right: 25px;
+      cursor: pointer;
+    }
+
+    .cross{
+      font-size: 25px;
+      color: #faaf47;
+      height: 100%;
+      margin: 70px 0 0 0;
+      cursor: pointer;
+    }
+
+    .next{
+      font-size: 25px;
+      color: #faaf47;
+      cursor: pointer;
+    }
+
+    img{
+      height: 90%;
+      border-radius: 3%;
+    }
+  }
+
+  .bigGallery5 {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+
+    .prev{
+      font-size: 25px;
+      color: #faaf47;
+      margin-right: 25px;
+      cursor: pointer;
+    }
+
+    .cross{
+      font-size: 25px;
+      color: #faaf47;
+      height: 100%;
+      margin: 70px 0 0 0;
+      cursor: pointer;
+    }
+
+    .next{
+      font-size: 25px;
+      color: #faaf47;
+      cursor: pointer;
+    }
+
+    img{
+      height: 90%;
+      border-radius: 3%;
+    }
+  }
+
+  .bigGallery6 {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+
+    .prev{
+      font-size: 25px;
+      color: #faaf47;
+      margin-right: 25px;
+      cursor: pointer;
+    }
+
+    .cross{
+      font-size: 25px;
+      color: #faaf47;
+      height: 100%;
+      margin: 70px 0 0 0;
+      cursor: pointer;
+    }
+
+    .next{
+      font-size: 25px;
+      color: #faaf47;
+      cursor: pointer;
+    }
+
+    img{
+      height: 90%;
+      border-radius: 3%;
+    }
+  }
+
+  .bigGallery7 {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+
+    .prev{
+      font-size: 25px;
+      color: #faaf47;
+      margin-right: 25px;
+      cursor: pointer;
+    }
+
+    .cross{
+      font-size: 25px;
+      color: #faaf47;
+      height: 100%;
+      margin: 70px 0 0 0;
+      cursor: pointer;
+    }
+
+    .next{
+      font-size: 25px;
+      color: #faaf47;
+      cursor: pointer;
+    }
+
+    img{
+      height: 90%;
+      border-radius: 3%;
+    }
+  }
+
+  .bigGallery8 {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+
+    .prev{
+      font-size: 25px;
+      color: #faaf47;
+      margin-right: 25px;
+      cursor: pointer;
+    }
+
+    .cross{
+      font-size: 25px;
+      color: #faaf47;
+      height: 100%;
+      margin: 70px 0 0 0;
+      cursor: pointer;
+    }
+
+    .next{
+      font-size: 25px;
+      color: #faaf47;
+      cursor: pointer;
+    }
+
+    img{
+      height: 90%;
+      border-radius: 3%;
+    }
+  }
+
+  .bigGallery9 {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+
+    .prev{
+      font-size: 25px;
+      color: #faaf47;
+      margin-right: 25px;
+      cursor: pointer;
+    }
+
+    .cross{
+      font-size: 25px;
+      color: #faaf47;
+      height: 100%;
+      margin: 70px 0 0 0;
+      cursor: pointer;
+    }
+
+    .next{
+      font-size: 25px;
+      color: #faaf47;
+      cursor: pointer;
+    }
+
+    img{
+      height: 90%;
+      border-radius: 3%;
+    }
+  }
+
+  .bigGallery10 {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+
+    .prev{
+      font-size: 25px;
+      color: #faaf47;
+      margin-right: 25px;
+      cursor: pointer;
+    }
+
+    .cross{
+      font-size: 25px;
+      color: #faaf47;
+      height: 100%;
+      margin: 70px 0 0 0;
+      cursor: pointer;
+    }
+
+    .next{
+      font-size: 25px;
+      color: #faaf47;
+      cursor: pointer;
+    }
+
+    img{
+      height: 90%;
+      border-radius: 3%;
+    }
+  }
+
+  .bigGallery11 {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+
+    .prev{
+      font-size: 25px;
+      color: #faaf47;
+      margin-right: 25px;
+      cursor: pointer;
+    }
+
+    .cross{
+      font-size: 25px;
+      color: #faaf47;
+      height: 100%;
+      margin: 70px 0 0 0;
+      cursor: pointer;
+    }
+
+    .next{
+      font-size: 25px;
+      color: #faaf47;
+      cursor: pointer;
+    }
+
+    img{
+      height: 90%;
+      border-radius: 3%;
+    }
+  }
+  .bigGallery12 {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+
+    .prev{
+      font-size: 25px;
+      color: #faaf47;
+      margin-right: 25px;
+      cursor: pointer;
+    }
+
+    .cross{
+      font-size: 25px;
+      color: #faaf47;
+      height: 100%;
+      margin: 70px 0 0 0;
+      cursor: pointer;
+    }
+
+    .next{
+      font-size: 25px;
+      color: #faaf47;
+      cursor: pointer;
+    }
+
+    img{
+      height: 90%;
+      border-radius: 3%;
+    }
+  }
 }
