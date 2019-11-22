@@ -10,6 +10,10 @@ class Realizations extends Component {
                 <div className="realizationsMain">
                     <h3>Nasze Realizacje</h3>
                     <RealizationsGallery/>
+                    <p>
+                        Więcej realizacji znajdziesz na naszym
+                        <a href="https://www.instagram.com/wytworniablaskudetailing/" target="_blank"> Instagramie</a>.
+                    </p>
                 </div>
             </div>
 
