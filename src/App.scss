@@ -7,6 +7,47 @@
   .page {
     display: block;
 
+    .cookiesInfo{
+      font-family: 'Rajdhani', sans-serif;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+      padding-bottom: 10px;
+      border-top: 2px solid #faaf47;
+
+      p{
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+        width: 80%;
+        text-align: center;
+      }
+
+      .cookiesBtn{
+        color: #111;
+        background-color: #faaf47;
+        width: 40px;
+        height: 20px;
+        font-weight: 800;
+        text-transform: uppercase;
+        border: 0;
+        border-radius: 20%;
+        transition: 0.3s all;
+        padding-bottom: 10px;
+        font-size: 14px;
+
+        &:hover{
+          box-shadow: 0 0 7px #faaf47;
+        }
+      }
+    }
+
     .scrollUp {
       display: none;
       width: 50px;
@@ -19,7 +60,7 @@
       bottom: 10px;
       opacity: .5;
       cursor: pointer;
-      z-index: 2;
+      z-index: 3;
 
       i {
         color: #fff;

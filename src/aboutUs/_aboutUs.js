@@ -17,9 +17,7 @@ class AboutUs extends Component {
                         produktów znanych i cenionych marek.<br/>W ofercie Wytwórni Blasku, poza podstawowymi usługami
                         pielęgnacji pojazdów, znajdziecie Państwo wiele dodatkowych usług m.in.:
                         <ul>
-                            <li>
-                                przyciemnianie szyb
-                            </li>
+                            <li>przyciemnianie szyb</li>
                             <li>przygotowanie aut do sprzedaży</li>
                             <li>czyszczenie i konserwacja skóry</li>
                             <li>renowacja i naprawa skórzanych tapicerek</li>
@@ -36,7 +34,6 @@ class AboutUs extends Component {
                         wszystkimi pojazdami - od motocykli po łodzie czy samoloty. </p>
                     <p> Posiadany sprzęt pozwala nam również na prowadzenie innych usług, z którymi mogą się państwo
                         zapoznać w zakładce - <a className="aboutToOfert" href="#">Oferta</a>.</p>
-
                 </div>
             </div>
 

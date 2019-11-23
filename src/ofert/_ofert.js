@@ -38,7 +38,7 @@ class Ofert extends Component {
                                     Czyszczenie wnętrza
                                 </h3>
                                 <p>Zakres prac oraz cena jest zawsze ustalana na miejscu po oględzinach auta.
-                                    Zaczynając od odkurzania aż pod kompletne wnętrze. </p>
+                                    Zaczynając od odkurzania aż po kompletny detailing wnętrza. </p>
                             </div>
                             <div className="ofertPrice">
                                 <p>od 30,00zł</p>
