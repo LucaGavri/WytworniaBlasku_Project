@@ -14,8 +14,7 @@ class Ofert extends Component {
                                 <h3>Mycie detailingowe</h3>
                                 <p> Mycie oraz oczyszczanie auta z osadów metalicznych, smoły,
                                     dodatkowo mycie wnęk drzwi oraz szyb z zewnętrznej strony zakończone
-                                    położeniem wosku na auto. <br/>W ofercie posiadamy również mycie zwykłe aut od
-                                    30,00zł.</p>
+                                    położeniem wosku na auto.</p>
                             </div>
                             <div className="ofertPrice">
                                 <p>od 80,00zł</p>
@@ -23,10 +22,19 @@ class Ofert extends Component {
                         </div>
                         <div className="ofertAll">
                             <div className="ofertTxt">
+                                <h3>Mycie zwykłe</h3>
+                                <p> Mycie auta metodą "na 2 wiadra" oraz osuszanie.</p>
+                            </div>
+                            <div className="ofertPrice">
+                                <p>od 30,00zł</p>
+                            </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
                                 <h3>
                                     Mycie komory silnika
                                 </h3>
-                                <p></p>
+                                <p>Bezpieczne mycie komory silnika wraz z dressingiem.</p>
                             </div>
                             <div className="ofertPrice">
                                 <p>od 40,00zł</p>
@@ -60,7 +68,7 @@ class Ofert extends Component {
                                 <h3>
                                     Czyszczenie oraz konserwacja skórzanej tapicerki
                                 </h3>
-                                <p></p>
+                                <p>Dokładne czyszczenie element po elemencie oraz konserwacja tapicerki odżywką.</p>
                             </div>
                             <div className="ofertPrice">
                                 <p>od 200,00zł</p>
@@ -71,7 +79,7 @@ class Ofert extends Component {
                                 <h3>
                                     Zabezpieczenie tapicerki skórzanej oraz materiałowej powłokami hydrofobowymi
                                 </h3>
-                                <p></p>
+                                <p>Zabezpieczenie tapicerki powłokami, które odpychają wodę oraz bród.</p>
                             </div>
                             <div className="ofertPrice">
                                 <p>od 200,00zł</p>
@@ -80,9 +88,21 @@ class Ofert extends Component {
                         <div className="ofertAll">
                             <div className="ofertTxt">
                                 <h3>
+                                    Renowacja tapicerki skórzanej
+                                </h3>
+                                <p>Usługa świadczona tylko po oględzinach auta.</p>
+                            </div>
+                            <div className="ofertPrice">
+                                <p>od 100,00zł</p>
+                            </div>
+                        </div>
+                        <div className="ofertAll">
+                            <div className="ofertTxt">
+                                <h3>
                                     Czyszczenie oraz konserwacja dachu cabrio
                                 </h3>
-                                <p></p>
+                                <p>Zabezpieczenie, tak jak w przypadku tapicerki materiałowej, ma za zadanie odpychać
+                                    wodę i nieczystości aby dach pozostał w świetnej kondycji.</p>
                             </div>
                             <div className="ofertPrice">
                                 <p>od 200,00zł</p>
@@ -170,8 +190,9 @@ class Ofert extends Component {
                                 <p>Korzyści z instalacji folii:
                                     <ul>
                                         <li>Utrzymują chłód wewnątrz samochodu nawet w najgorętsze dni (blokują do 70%
-                                        energii
-                                            słonecznej)</li>
+                                            energii
+                                            słonecznej)
+                                        </li>
                                         <li>Zwiększają bezpieczeństwo</li>
                                         <li>Redukują refleksy</li>
                                     </ul>
