@@ -10,7 +10,6 @@ import Ofert from "./ofert/_ofert";
 import Realizations from "./realizations/_realizations";
 import Contact from "./contact/_contact";
 
-
 class App extends Component {
     componentDidMount() {
         //    pokazanie btn'a strzałki w gore
