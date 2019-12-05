@@ -20,6 +20,17 @@
       z-index: 2;
       padding-bottom: 10px;
       border-top: 2px solid #faaf47;
+      animation: showCookies 3s linear;
+
+      @keyframes showCookies {
+        0% {
+          bottom: -500px;
+        }
+
+        100% {
+          bottom: 0;
+        }
+      }
 
       p{
         color: #fff;
@@ -37,10 +48,11 @@
         font-weight: 800;
         text-transform: uppercase;
         border: 0;
-        border-radius: 20%;
+        border-radius: 15%;
         transition: 0.3s all;
         padding-bottom: 10px;
         font-size: 14px;
+        cursor: pointer;
 
         &:hover{
           box-shadow: 0 0 7px #faaf47;

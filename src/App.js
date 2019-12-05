@@ -12,8 +12,11 @@ import Contact from "./contact/_contact";
 
 class App extends Component {
     componentDidMount() {
-        //    pokazanie btn'a strzałki w gore
-        window.onscroll = function() {scrollFunction()};
+
+        //pokazanie btn'a strzałki w gore
+        window.onscroll = function () {
+            scrollFunction()
+        };
 
         function scrollFunction() {
             if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
@@ -23,13 +26,22 @@ class App extends Component {
             }
         }
 
+        //przesuwanie w gore z btn'a strzałki w gore
+        document.querySelector(".scrollUp").addEventListener("click", function (e) {
+            (e).preventDefault();
+            document.querySelector('.page').scrollIntoView({
+                block: "start",
+                inline: "nearest",
+                behavior: "smooth"
+            });
+        });
+
         //info o Cookies
         const cookiesInfo = document.querySelector(".cookiesInfo");
         const cookiesBtn = document.querySelector(".cookiesBtn");
 
         cookiesBtn.addEventListener("click", function (e) {
             (e).preventDefault();
-            //wyswietlanie komponentu i zwijanie innych
             cookiesInfo.style.display = "none";
         });
 
@@ -194,13 +206,6 @@ class App extends Component {
             document.documentElement.scrollTop = 0;
         });
 
-        //    przesuwanie w gore z btn'a strzałki w gore
-        document.querySelector(".scrollUp").addEventListener("click", function (e) {
-            (e).preventDefault();
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        });
-
     }
 
     render() {
@@ -208,7 +213,8 @@ class App extends Component {
             <div className="app">
                 <div className="page">
                     <div className="cookiesInfo">
-                        <p>Ta strona korzysta z plików Cookies. Dalsze przeglądanie witryny oznacza, że zgadzasz się na ich użycie.</p>
+                        <p>Ta strona korzysta z plików Cookies. Dalsze przeglądanie witryny oznacza, że zgadzasz się na
+                            ich użycie.</p>
                         <button className="cookiesBtn">ok</button>
                     </div>
                     <Header/>
@@ -220,7 +226,7 @@ class App extends Component {
                     <Footer/>
                     <Copyright/>
                     <div className="scrollUp">
-                            <i className="fas fa-angle-up"></i>
+                        <i className="fas fa-angle-up"></i>
                     </div>
                 </div>
             </div>
