@@ -36,15 +36,6 @@ class App extends Component {
             });
         });
 
-        //info o Cookies
-        const cookiesInfo = document.querySelector(".cookiesInfo");
-        const cookiesBtn = document.querySelector(".cookiesBtn");
-
-        cookiesBtn.addEventListener("click", function (e) {
-            (e).preventDefault();
-            cookiesInfo.style.display = "none";
-        });
-
         //akcja przycisków nawigacji i footera
         const logoClick = document.querySelector(".logo");
         const slider = document.querySelector(".main-slider");
@@ -212,11 +203,6 @@ class App extends Component {
         return (
             <div className="app">
                 <div className="page">
-                    <div className="cookiesInfo">
-                        <p>Ta strona korzysta z plików Cookies. Dalsze przeglądanie witryny oznacza, że zgadzasz się na
-                            ich użycie.</p>
-                        <button className="cookiesBtn">ok</button>
-                    </div>
                     <Header/>
                     <Slider/>
                     <AboutUs/>
