@@ -36,6 +36,28 @@ class App extends Component {
             });
         });
 
+        //cookies info
+        //znikanie minicookies btn ok
+        document.querySelector('.cookiesMiniBtn').addEventListener("click", function (e) {
+            (e).preventDefault();
+            document.querySelector('.cookiesMiniInfo').style.display = "none";
+        });
+        //klik tutaj - pojawienie maxicookies znikniecie minicookies i scroll up
+        document.querySelector('.cookiesMore').addEventListener("click", function (e) {
+            (e).preventDefault();
+            document.querySelector('.cookiesMaxiInfo').style.display = "flex";
+            document.querySelector('.cookiesMiniInfo').style.display = "none";
+            document.querySelector('.page').scrollIntoView({
+                block: "start",
+                inline: "nearest",
+            });
+        });
+        //zamykanie maxicookies
+        document.querySelector('.cookiesCross').addEventListener("click", function (e) {
+            (e).preventDefault();
+            document.querySelector('.cookiesMaxiInfo').style.display = "none";
+        });
+
         //akcja przycisków nawigacji i footera
         const logoClick = document.querySelector(".logo");
         const slider = document.querySelector(".main-slider");
@@ -211,6 +233,36 @@ class App extends Component {
                     <Contact/>
                     <Footer/>
                     <Copyright/>
+                    <div className="cookiesMiniInfo">
+                        <p>
+                            Ta strona wykorzystuje bezpieczne pliki cookies, które są potrzebne do odpowiedniego
+                            działania serwisu. Informacje o plikach oraz jak je wyłączyć znajdziesz <a
+                            className="cookiesMore" href="#">tutaj</a>.
+                        </p>
+                        <button className="cookiesMiniBtn">OK</button>
+                    </div>
+                    <div className="cookiesMaxiInfo">
+                        <p>
+                            POLITYKA PRYWATNOŚĆI<br/><br/>
+
+                            PLIKI COOKIES<br/>
+                            Na urządzeniu użytkownika zapisywane są bezpieczne pliki Cookies.<br/><br/>
+
+                            Użytkownik ma możliwość wyłączenia lub ograniczenia plików Cookies na jego urządzeniu.
+                            Niestety strona wytwórniablasku.pl nie będzie funkcjonować poprawnie.<br/>
+
+                            Pliki Cookie zapisywane są na potrzeby zapewnienia poprawnego działania skryptów systemu
+                            serwisu oraz zapewnienia bezpieczeństwa korzystania z naszej strony.<br/><br/>
+
+                            WYŁĄCZANIE COOKIES<br/>
+                            Poniżej przykładowa instrukcja dla popularnej przeglądarki Chrome:<br/>
+                            W górnej części okna należy kliknąć przycisk "Więcej"(trzy kropki) i przejść do zakładki
+                            "Ustawienia". Następnie na dole okna kliknąć "Zaawansowane". W sekcji „Prywatność i
+                            bezpieczeństwo” wejść w "Ustawienia witryn". Kliknąć "Pliki Cookie". W tym miejscu można
+                            włączyć lub wyłączyć pliki cookie.
+                        </p>
+                        <i className="far fa-times-circle cookiesCross"></i>
+                    </div>
                     <div className="scrollUp">
                         <i className="fas fa-angle-up"></i>
                     </div>
