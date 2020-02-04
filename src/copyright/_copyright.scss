@@ -14,12 +14,30 @@
     color: #FAAF47;
     margin: 10px 0 0 0;
     span{
-      font-size: 25px;
+      font-size: 20px;
+    }
+    a{
+      text-decoration: none;
+      color: #faaf47;
     }
   }
 }
 @media (max-width: 470px) {
   .copyright{
     width: 90%;
+    p {
+      font-size: 12px;
+      padding: 2px 0 2px 0;
+      text-align: center;
+      color: #FAAF47;
+      margin: 10px 0 0 0;
+      span{
+        font-size: 14px;
+      }
+      a{
+        text-decoration: none;
+        color: #faaf47;
+      }
+    }
   }
 }
