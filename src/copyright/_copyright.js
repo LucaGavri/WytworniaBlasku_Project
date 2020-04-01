@@ -8,7 +8,7 @@ class Copyright extends Component {
                 <div className="copyright">
                     <p> <span>&copy;</span>
                          2019, Made by
-                        <a href="mailto:lukaszgawrys13@gmail.com"> LucaGavri</a>
+                        <a href="https://lucagavri.github.io/Portfolio_Website/" target="_blank" rel="noreferrer noopener"> LucaGavri</a>
                     </p>
                 </div>
         )
