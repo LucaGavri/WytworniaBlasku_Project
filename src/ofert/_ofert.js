@@ -88,17 +88,6 @@ class Ofert extends Component {
                         <div className="ofertAll">
                             <div className="ofertTxt">
                                 <h3>
-                                    Renowacja tapicerki skórzanej
-                                </h3>
-                                <p>Usługa świadczona tylko po oględzinach auta.</p>
-                            </div>
-                            <div className="ofertPrice">
-                                <p>od 100,00zł</p>
-                            </div>
-                        </div>
-                        <div className="ofertAll">
-                            <div className="ofertTxt">
-                                <h3>
                                     Czyszczenie oraz konserwacja dachu cabrio
                                 </h3>
                                 <p>Zabezpieczenie, tak jak w przypadku tapicerki materiałowej, ma za zadanie odpychać
